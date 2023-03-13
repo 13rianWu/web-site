@@ -11,11 +11,14 @@
 }
 .mid{
     height: 70%;
-    background-color: rgb(170, 170, 241);
+    background-color: rgb(191, 191, 240);
 }
 .bottom{
     height: 10%;
     background-color: antiquewhite;
+}
+.bottom_txt{
+    margin: 0 25%;
 }
 .pic{
     height: 240px;
@@ -55,4 +58,28 @@
 .txt{
     font-size: 24px;
     font-family: Microsoft JhengHei;
+}
+.txt2{
+    font-size: 22px;
+    font-family: Microsoft JhengHei;
+    text-align: center;
+}
+.btn_copy{
+    height: 22px;
+    background-color: black;
+    font-size: 14px;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    margin: 0 0 0 5px;
+}
+.btn_copy:hover{
+    background-color: rgba(220, 220, 220, 0.568);
+    cursor: pointer;
+}
+.btn_copy:active{
+    background-color: rgba(220, 220, 220, 0.699);
+}
+.author{
+    margin: 0px auto;
 }
